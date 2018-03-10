@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+.field
+{
+  border-radius: 25px;
+    border: 2px solid #00FF98;
+    padding: 20px;
+    width: 300px;
+    height: 10px;
+    margin-top: 10vh;
+
+}
+
+.submit {
+	padding-bottom: 25px;
+	padding-top: 0px;
+	width:100px;
+	padding: 10px;
+	border-radius: 20px;
+  border: 2px solid #00FF98;
+  background-color: #00FF98;
+  color: white;
+  font-size: 125%;
+  font-family: 'Oxygen', sans-serif;
+  margin-top: 5vh;
+}
+
+.topbar
+{
+	margin: -1px;
+	padding: -1px;
+	border: -1px;
+	outline: 0px;
+  color: #00FF98;
+  background-color: #00FF98;
+  font-size: 300%;
+  color: white;
+  height: 15vh;
+  line-height: 15vh
+}
+body {
+	padding: 0px;
+	margin: 0px;
+  font-family: 'Oxygen', sans-serif;
+
+
+}

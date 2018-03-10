@@ -1,33 +1,8 @@
-@CHARSET "ISO-8859-1";
-
-<input type = "text" name = "username"/>
-<input type = "text" name = "password"/>
-<input type = "text" name = "email"/>
-
-
-username
+.field
 {
   border-radius: 25px;
     border: 2px solid #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
-}
-
-password
-{
-	 border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
-}
-
-email 
-{
-	 border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
+    padding: 20px;
     width: 200px;
     height: 150px;
 }

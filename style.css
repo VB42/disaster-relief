@@ -27,17 +27,25 @@
 
 .topbar
 {
-	margin: -1px;
-	padding: -1px;
-	border: -1px;
-	outline: 0px;
   color: #00FF98;
   background-color: #00FF98;
   font-size: 300%;
   color: white;
-  height: 15vh;
-  line-height: 15vh
+  text-align: center;
+
 }
+
+.logo {
+  height: 15vh;
+  width: 15vh;
+  padding-top: 1vh;
+
+}
+.compname {
+  display: inline;
+  line-height: 10vh;
+}
+
 body {
 	padding: 0px;
 	margin: 0px;

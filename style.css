@@ -23,6 +23,8 @@
   font-size: 125%;
   font-family: 'Oxygen', sans-serif;
   margin-top: 5vh;
+  display:inline-block;
+  
 }
 
 .topbar
@@ -50,6 +52,6 @@ body {
 	padding: 0px;
 	margin: 0px;
   font-family: 'Oxygen', sans-serif;
-
-
 }
+
+

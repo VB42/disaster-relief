@@ -21,6 +21,12 @@
     };
     firebase.initializeApp(config);
   </script>
+  <script>
+  function othername() {
+	    var input = document.getElementById("userInput").value;
+	    alert(input);
+	}
+  </script>
 
 </head>
 
@@ -32,11 +38,18 @@
     <h1 class="compname">Unified Aid</h1>
 
   </div>
+  
+  <div class="topnav">
+  	<a class="active" href="home.html">Home</a>
+  	<a href="index.html">Login</a>
+  	<a href="#contact">Contact Representatives</a>
+  	<a href="#about">About</a>
+</div>
 
   <div alignt="center">
 
 
-    <input type="text" name="username" class="field">
+    <input type="text" name="username" class="field" id="userInput">
 
     <br />
     <input type="text" name="password" class="field">
@@ -47,9 +60,9 @@
 
     <input type="text" class="field">
 
-    <br />
+    <br /><br />
 
-    <input type="submit" name="submit" value="Submit" class="submit">
+    <input type="submit" class="submit" onclick="otherfunc();">
     <br>
   </div>
 </body>

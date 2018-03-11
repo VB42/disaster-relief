@@ -45,6 +45,7 @@
 .compname {
   display: inline;
   line-height: 10vh;
+  margin-top: -10px;
 }
 
 body {

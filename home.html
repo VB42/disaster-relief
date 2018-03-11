@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script>
+//complete("VA");
+function complete(ocdId)
+{
+  //var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://www.googleapis.com/civicinfo/v2/representatives/ocdId", true);
+  xhr.send();
+}
+</script>
 <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <title>title</title>
@@ -15,20 +26,14 @@
   </div>
   
   <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#login">Login</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  	<a class="active" href="home.html">Home</a>
+  	<a href="index.html">Login</a>
+  	<a onclick="complete(VA);">Contact Representatives</a>
+  	<a href="#about">About</a>
 </div>
 
   <form ALIGN="center">
 
-
-     <input type="button" name="home" value="Home" class="submit" id = "inlineBox">
-
- 	<input type="button" name="account" value="Account" class="submit" id="inlineBox">
- 	
- 	<input type="button" name="discover" value="Discover" class="submit" id="inlineBox">
  	
  
     

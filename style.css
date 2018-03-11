@@ -33,6 +33,7 @@
   font-size: 300%;
   color: white;
   text-align: center;
+  padding-bottom: 20px;
 
 }
 
@@ -45,13 +46,12 @@
 .compname {
   display: inline;
   line-height: 10vh;
-  margin-top: -10px;
 }
 
 body {
 	padding: 0px;
 	margin: 0px;
-  font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 #inlineBox 

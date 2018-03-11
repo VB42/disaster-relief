@@ -1,0 +1,16 @@
+status: 200
+content-type: application/json; charset=utf-8
+content-length: 36
+connection: keep-alive
+date: Sun, 11 Mar 2018 06:30:51 GMT
+x-amzn-requestid: be827c58-24f5-11e8-bb4c-c14b87a87de3
+access-control-allow-origin: *
+access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+access-control-allow-methods: GET,OPTIONS
+x-amzn-trace-id: Root=1-5aa4cd1b-c9b8f333a651a51dd5e4eb8c
+x-cache: Miss from cloudfront
+via: 1.1 5c7c003054650261f3ca84564e715e56.cloudfront.net (CloudFront)
+x-amz-cf-id: O2N66b-2jX9GsNHpXN8mG9rwZChEJ-NXYEV3k2svXBWR8zqYq0T_4w==
+content-location: https://api.propublica.org/congress/v1/115/bills/H.R.36.json
+
+{"status":"404","error":"Not Found"}

@@ -74,7 +74,7 @@ const handleReceivePostback = (event) => {
  * of message that was received. Read more at: https://developers.facebook.com/
  * docs/messenger-platform/webhook-reference/message-received
  */
-const handleReceiveMessage = (event) => {
+const handleReceiveMessage = (event, value) => {
   const message = event.message;
   const senderId = event.sender.id;
 
@@ -83,7 +83,8 @@ const handleReceiveMessage = (event) => {
   // spamming the bot if the requests take some time to return.
   sendApi.sendReadReceipt(senderId);
 
-  if (message.text) { sendApi.sendWelcomeMessage(senderId); }
+  if (message.text) { sendApi.sendWelcomeMessage(senderId, value); }
+
 };
 
 export default {

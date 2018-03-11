@@ -1,0 +1,24 @@
+status: 200
+content-type: application/json; charset=utf-8
+content-length: 187
+connection: keep-alive
+date: Sun, 11 Mar 2018 06:26:37 GMT
+x-amzn-requestid: 270e0dfb-24f5-11e8-a1e4-a954048745d6
+access-control-allow-origin: *
+access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+access-control-allow-methods: GET,OPTIONS
+x-amzn-trace-id: Root=1-5aa4cc1d-63b55f5fdca9ab8281031190
+x-cache: Miss from cloudfront
+via: 1.1 7718496b82dfc64dff52dbb3d7f07f3b.cloudfront.net (CloudFront)
+x-amz-cf-id: NAIosGp8KqBi4LW9eUS9eu33G3NJdqpmMjvsb5Oy3hMhX7B5Xc4GRw==
+content-location: https://api.propublica.org/congress/v1/115/nominees/state/virginia.json
+
+{
+    "status": "ERROR",
+    "copyright": "Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+    "errors": [
+        {
+            "error": "Record not found" 
+        } 
+    ]
+}

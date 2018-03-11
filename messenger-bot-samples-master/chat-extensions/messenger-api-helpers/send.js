@@ -69,8 +69,9 @@ const sendReadReceipt = (recipientId) => {
 };
 
 // Send the initial message welcoming & describing the bot.
-const sendWelcomeMessage = (recipientId) => {
-  sendMessage(recipientId, messages.welcomeMessage(APP_URL));
+const sendWelcomeMessage = (recipientId, value) => {
+  // console.log(messages.welcomeMessage(APP_URL));
+  sendMessage(recipientId, messages.welcomeMessage(APP_URL, value));
 };
 
 // Let the user know that they don't have any lists yet.

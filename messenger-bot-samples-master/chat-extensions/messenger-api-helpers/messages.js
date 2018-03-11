@@ -64,18 +64,9 @@ const createListButton = (apiUri, buttonTitle = 'Create a List') => {
  * @param {string} apiUri - Hostname of the server.
  * @returns {object} - Message with welcome text and a button to start a new list.
  */
-const welcomeMessage = (apiUri) => {
+const welcomeMessage = (apiUri, value) => {
   return {
-    attachment: {
-      type: 'template',
-      payload: {
-        template_type: 'button',
-        text: 'Ready to make a shared list with your friends? Everyone can add items, check things off, and stay in sync.',
-        buttons: [
-          createListButton(apiUri),
-        ],
-      },
-    },
+    text: value
   };
 };
 

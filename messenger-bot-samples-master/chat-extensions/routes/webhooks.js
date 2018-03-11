@@ -178,7 +178,7 @@ router.post('/', (req, res) => {
       }
       // Iterate over each messaging event and handle accordingly
       pageEntry.messaging.forEach((messagingEvent) => {
-        //console.log({messagingEvent});
+        console.log(messagingEvent["message"]["nlp"]);
 
         
       if(Object.keys(entities)[0] == "addInterest"){

@@ -1,0 +1,19 @@
+{
+  "name": "disaster-relief",
+  "version": "1.0.0",
+  "description": "",
+  "main": "messenger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VB42/disaster-relief.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VB42/disaster-relief/issues"
+  },
+  "homepage": "https://github.com/VB42/disaster-relief#readme"
+}

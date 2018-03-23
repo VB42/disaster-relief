@@ -12,7 +12,7 @@ import isEmpty from 'lodash/isEmpty';
 // ===== MODULES ===============================================================
 import request from 'request';
 
-const PAGE_ACCESS_TOKEN = 'EAAXZAxsIEzi0BAFmfPcpUKfYbQM8wi1ZBsBZBM4PLoyBYyH3YPINfels0ldz7LhnUneFCZBHHN7YYXKYZAT1nHy5aHCMZCByAEZCvcpq94Un3fHWRN9ajjcj8ktbZApjPX56ZA5ryqEDcfdnKEAVMZAzZBpI6C5VUsdf87DP1J7c27l3QDyK2HmcjLN';
+const PAGE_ACCESS_TOKEN = 'EAAXZAxsIEzi0BAINXUL25liMTCKKwdKuwW2xG2ZB7rV0Yf4ucjBH7fUXmDJMJxNJjU8L0MynZBgCHZCWSN8zNHnzryAJHxTVmldiZA90R11SSVNnCgXmDSfM6Mtvd2TuXdYFT2LLN3V8aD3LuDBMzKFohmMA5rK1w6sqxZAFHZB8JGZB9CoPP5ac';
 
 /**
  * Send messages in order to the Facebook graph API.
